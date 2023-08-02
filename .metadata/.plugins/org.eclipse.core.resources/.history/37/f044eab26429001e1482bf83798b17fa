@@ -1,0 +1,8 @@
+package cucumber.options;
+
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(features="/maven/src/test/java/feature",glue="",tags="")
+public class TestRunner {
+
+}
